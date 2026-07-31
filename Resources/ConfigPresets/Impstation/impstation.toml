@@ -61,3 +61,7 @@ enabled = true
 [admin]
 # sets time that players must wait before dismissing an admin message on login
 message_wait_time = 10
+
+[game]
+# sets the fallback preset to secret so that the gamemode isn't displayed for all to see when it fails to start
+fallbackpreset = "Secret"
